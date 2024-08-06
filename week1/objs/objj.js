@@ -6,4 +6,5 @@ let user = {
 }
 
 
-console.log("sid's age is " + user.age);
+console.log(user.name, "'s age is ", user.age);
+
