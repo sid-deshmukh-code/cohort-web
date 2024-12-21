@@ -1,0 +1,64 @@
+sid@pc:~$ cd Desktop/cohort-web/week4
+sid@pc:~/Desktop/cohort-web/week4$ ls
+ index.js   package.json  'Projects _ 100xDevs.pdf'
+sid@pc:~/Desktop/cohort-web/week4$ mkdir challlk
+sid@pc:~/Desktop/cohort-web/week4$ cd challlk/
+sid@pc:~/Desktop/cohort-web/week4/challlk$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (challlk) 
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /home/sid/Desktop/cohort-web/week4/challlk/package.json:
+
+{
+  "name": "challlk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+sid@pc:~/Desktop/cohort-web/week4/challlk$ npm install chalk
+
+added 1 package, and audited 2 packages in 3s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+sid@pc:~/Desktop/cohort-web/week4/challlk$ vi index.mjs
+sid@pc:~/Desktop/cohort-web/week4/challlk$ node index.mjs 
+Hello World!
+Hello world!
+Hello World! Foo bar biz baz
+Hello world!
+I am a green line with a blue substring that becomes green again!
+
+CPU: 90%
+RAM: 40%
+DISK: 70%
+
+Underlined reddish color
+Bold gray!
+
